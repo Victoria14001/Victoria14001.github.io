@@ -3,7 +3,7 @@ title: Victoria 201114001
 description: '个人博客'
 url: 'https://victoria14001.github.io/'
 baseurl: ''
-profilepic: '/images/beauty_girl.JPEG'
+profilepic: '/images/beauty_girl.JPG'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
 font_awesome: 'XXXXXXXXXX.js'
@@ -14,6 +14,8 @@ author:
   twitter_username: jessic_yang0603
 #  facebook_username: joshgerdes
   github_username:  Victoria14001
+  weibo_username: Victoria_Jmy
+  zhihu_username: Victoria
 #   linkedin_username:  thomas-zühlke-889182165
 #   meetup_name: Azure-Meetup-Rostock-MV
 
