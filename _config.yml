@@ -6,7 +6,7 @@ baseurl: ''
 profilepic: '/images/beauty_girl.JPG'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+font_awesome: 'b99e675b6e.js'
 
 author:
   name: 'Victoria 201114001'
