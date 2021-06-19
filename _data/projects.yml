@@ -19,8 +19,3 @@
   img: https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png
   desc: inca自动化。
 
-- name: Face API
-  gh_user: ArvatoSystems
-  repo: FaceApiWPF
-  img: https://raw.githubusercontent.com/ArvatoSystems/FaceApiWPF/master/FaceApiWPFScreenshot.png
-  desc: Using the WebCam and send continuously pictures to the Azure FaceAPI. The analyzed results like age and emotion drawn on the WebCam stream. 
