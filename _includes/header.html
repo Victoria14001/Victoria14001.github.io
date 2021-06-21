@@ -87,6 +87,17 @@
             </li>
             {% endif %}
               
+            {% if site.author.stackoverflow_username %}
+            <!-- stackoverflow -->
+            <li class="navigation__item">
+              <a href="https://stackoverflow.com/users/{{ site.author.stackoverflow_username }}" title="Weibo {{ site.author.stackoverflow_username }}" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-weibo fa-lg"></i></div>-->
+                <i class="fab fa-stackoverflow fa-lg"></i>
+                <span class="label">stackoverflow</span>
+              </a>
+            </li>
+            {% endif %}
+              
             {% if site.author.meetup_name %}
             <!-- Meetup -->
             <li class="navigation__item">
