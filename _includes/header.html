@@ -121,6 +121,39 @@
               </a>
             </li>
             {% endif %}
+              
+            {% if site.author.linkedin_name %}
+            <!-- Linkedin -->
+            <li class="navigation__item">
+              <a href="https://www.linkedin.com/in/{{ site.author.linkedin_name }}" title="Linkedin {{ site.author.linkedin_name }}" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-linkedin_name fa-lg"></i>
+                <span class="label">Linkedin</span>
+              </a>
+            </li>
+            {% endif %}
+           
+            {% if site.author.meetup_name %}
+            <!-- ins -->
+            <li class="navigation__item">
+              <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-meetup fa-lg"></i>
+                <span class="label">Meetup</span>
+              </a>
+            </li>
+            {% endif %}
+              
+            {% if site.author.meetup_name %}
+            <!-- youtube -->
+            <li class="navigation__item">
+              <a href="https://www.meetup.com/{{ site.author.meetup_name }}" title="Meetup {{ site.author.meetup_name }}" target="_blank">
+                <!--<div style="font-size: 1.4rem;"><i class="fab fa-meetup fa-lg"></i></div>-->
+                <i class="fab fa-meetup fa-lg"></i>
+                <span class="label">Meetup</span>
+              </a>
+            </li>
+            {% endif %}
 
             {% if site.author.email %}
               <!-- Email -->
