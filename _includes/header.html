@@ -123,6 +123,16 @@
             </li>
             {% endif %}
 
+            {% if site.author.tumblr_username %}
+            <!-- Tumblr -->
+            <li class="navigation__item">
+              <a href="https://{{ site.author.tumblr_username }}.tumblr.com/" title="{{ site.author.tumblr_username }} on Tumblr" target="_blank">
+                <i class="fab fa-tumblr fa-lg"></i>
+                <span class="label">Tumblr</span>
+              </a>
+            </li>
+            {% endif %}
+              
             {% if site.author.email %}
               <!-- Email -->
               <li class="navigation__item">
