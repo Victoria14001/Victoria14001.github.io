@@ -18,8 +18,8 @@ author:
   zhihu_username: victoria14001
   stackoverflow_username: 8356851
   facebook_name: 100014098986256
-#   linkedin_username:  thomas-zühlke-889182165
-#   meetup_name: Azure-Meetup-Rostock-MV
+  linkedin_username:  梦杰-杨-761025130
+  meetup_name: victoria
 
 # Build settings
 destination: _site
