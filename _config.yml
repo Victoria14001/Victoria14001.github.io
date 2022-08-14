@@ -39,3 +39,5 @@ kramdown:
 
 #plugins: ['jekyll-paginate']
 exclude: ['README.md', 'screenshot-overview.png']
+
+theme: jekyll-theme-cayman
